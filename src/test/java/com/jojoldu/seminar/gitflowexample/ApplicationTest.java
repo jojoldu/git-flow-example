@@ -13,4 +13,8 @@ public class ApplicationTest {
     public void contextLoads() {
     }
 
+    @Test
+    public void 메인1() {
+        System.out.println("메인1입니다.");
+    }
 }
