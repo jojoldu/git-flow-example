@@ -11,4 +11,9 @@ public class Test1 {
     public void 테스트1() {
         assertThat(1, is(1));
     }
+
+    @Test
+    public void name() {
+        System.out.println("테스트2");
+    }
 }
